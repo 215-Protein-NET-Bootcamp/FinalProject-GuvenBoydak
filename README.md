@@ -47,8 +47,13 @@
  
  <hr>
  
+ ## 
  ## Projenin Kurulumu
- - Proje’yi çalıştırmak için PostgreSql'in bilgisayarımızda yüklü ve çalışıyor olması gerekmektedir. Daha Sonra FinalProject.Api katmanındakı **appsettings.json** dosyası içerisindeki baglantı adreslerini sırasıyla kendi database ayaralarınıza göre değiştirmelisiniz. 
+ - Projeyi aşagıdaki adresden biligisayarınıza klonlayabilirsiniz
+ ````
+ https://github.com/215-Protein-NET-Bootcamp/FinalProject-GuvenBoydak.git
+ ````
+ - Proje’yi çalıştırmak için PostgreSql'in bilgisayarımızda yüklü ve çalışıyor olması gerekmektedir. Daha Sonra FinalProject.Api katmanındakı ``appsettings.json`` dosyası içerisindeki baglantı adreslerini sırasıyla kendi database ayaralarınıza göre değiştirmelisiniz. 
  - PostgreSql'de HangFire Database ve proje Database'i  çalıştırıyoruz. Fluent migrations ile postgresql e tabloları oluşturabilmesi için bir database yaratmanız gerekiyor.
  - Projeyi çalıştırmak için Solution dosyası üzerinden property diyip daha sonra Multiple Start-Up projesi seçilerek FinalProject.API ve FinalProject.RabbitMqConsumer aynı anda işaretlenmesiniz. Daha sonra Swagger veya postman üzerinde api'yi kullanabilirsiniz.
  
