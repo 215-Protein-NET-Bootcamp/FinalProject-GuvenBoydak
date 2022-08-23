@@ -88,7 +88,7 @@ namespace FinalProject.Business
         /// Giriş işlemleri
         /// </summary>
         /// <param name="entity">Kulanıcı giriş bilgileri</param>
-        public async Task<AppUser> LoginAsync(AppUserpasswordUpdateDto entity)
+        public async Task<AppUser> LoginAsync(AppUserLoginDto entity)
         {
             AppUser appUser = await GetByEmailAsync(entity.Email);
 

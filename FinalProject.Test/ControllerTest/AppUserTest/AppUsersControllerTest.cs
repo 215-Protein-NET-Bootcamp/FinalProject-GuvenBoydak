@@ -125,7 +125,7 @@ namespace FinalProject.Test
             AccessToken accessToken = new AccessToken();
             AppUserRegisterDto dto = new AppUserRegisterDto() { Email = "test@gmail.com", Password = "12345678" };
 
-            _appUserService.Setup(x => x.LoginAsync(It.IsAny<AppUserpasswordUpdateDto>())).ReturnsAsync(appUser);
+            _appUserService.Setup(x => x.LoginAsync(It.IsAny<AppUserLoginDto>())).ReturnsAsync(appUser);
             _appUserService.Setup(x => x.CreateAccessToken(It.IsAny<AppUser>())).Returns(accessToken);
 
             IActionResult result = await _appUserController.RegisterAsync(dto);

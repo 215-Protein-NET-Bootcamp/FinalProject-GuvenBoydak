@@ -8,7 +8,7 @@ namespace FinalProject.Business
     {
         Task<AppUser> RegisterAsync(AppUserRegisterDto registerDto);
 
-        Task<AppUser> LoginAsync(AppUserpasswordUpdateDto entity);
+        Task<AppUser> LoginAsync(AppUserLoginDto entity);
 
         Task<AppUser> GetByEmailAsync(string email);
 

@@ -14,7 +14,7 @@ namespace FinalProject.Test
         [InlineData("","")]
         public void WhenInvalidInputsAreGiven_AppUserLoginDtoValidator_SouldBeReturnErrors(string email,string password)
         {
-            AppUserpasswordUpdateDto appUserLoginDto = new AppUserpasswordUpdateDto()
+            AppUserLoginDto appUserLoginDto = new AppUserLoginDto()
             {
                 Email = email,
                 Password = password
@@ -30,7 +30,7 @@ namespace FinalProject.Test
         [InlineData("test@gmail.com", "12345678")]
         public void WhenInvalidInputsAreGiven_AppUserLoginDtoValidator_SouldNotBeReturnErrors(string email, string password)
         {
-            AppUserpasswordUpdateDto appUserLoginDto = new AppUserpasswordUpdateDto()
+            AppUserLoginDto appUserLoginDto = new AppUserLoginDto()
             {
                 Email = email,
                 Password = password

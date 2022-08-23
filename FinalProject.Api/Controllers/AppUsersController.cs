@@ -121,7 +121,7 @@ namespace FinalProject.Api
 
         [HttpPost]
         [Route("Login")]
-        public async Task<IActionResult> LoginAsync([FromBody] AppUserpasswordUpdateDto loginDto)
+        public async Task<IActionResult> LoginAsync([FromBody] AppUserLoginDto loginDto)
         {
             Log.Information($"{User.Identity?.Name}: Login a AppUser.");
 

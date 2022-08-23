@@ -39,9 +39,9 @@ namespace FinalProject.Test
 
         List<Product> products = new List<Product>()
         {
-            new Product(){ID=1,Name="laptop",Description="mac pro",UnitPrice=25000,UnitsInStock=5,ImageUrl="59cae2de-8e12-23d2-bed5-9d1985ec8c94.png",AppUserID=1,CategoryID=1,BrandID=1,ColorID=1,CreatedDate=DateTime.Now,Status=DataStatus.Inserted},
-            new Product(){ID=2,Name="ayakkabı",Description="erkek ayakabısı",UnitPrice=1000,UnitsInStock=5,ImageUrl="33cae2de-1e82-42d2-bed5-9d1985ec8c94.png",AppUserID=2,CategoryID=4,BrandID=2,ColorID=1,CreatedDate=DateTime.Now,Status=DataStatus.Inserted},
-            new Product(){ID=3,Name="tornavida",Description="yıldız tornavida",UnitPrice=500,UnitsInStock=1,ImageUrl="25cae1de-8e82-43d2-bed5-9d1985ec8c94.png",AppUserID=3,CategoryID=2,BrandID=3,ColorID=2,CreatedDate=DateTime.Now,Status=DataStatus.Inserted}
+            new Product(){ID=1,Name="laptop",Description="mac pro",UnitPrice=25000,ImageUrl="59cae2de-8e12-23d2-bed5-9d1985ec8c94.png",AppUserID=1,CategoryID=1,BrandID=1,ColorID=1,CreatedDate=DateTime.Now,Status=DataStatus.Inserted},
+            new Product(){ID=2,Name="ayakkabı",Description="erkek ayakabısı",UnitPrice=1000,ImageUrl="33cae2de-1e82-42d2-bed5-9d1985ec8c94.png",AppUserID=2,CategoryID=4,BrandID=2,ColorID=1,CreatedDate=DateTime.Now,Status=DataStatus.Inserted},
+            new Product(){ID=3,Name="tornavida",Description="yıldız tornavida",UnitPrice=500,ImageUrl="25cae1de-8e82-43d2-bed5-9d1985ec8c94.png",AppUserID=3,CategoryID=2,BrandID=3,ColorID=2,CreatedDate=DateTime.Now,Status=DataStatus.Inserted}
         };
 
 

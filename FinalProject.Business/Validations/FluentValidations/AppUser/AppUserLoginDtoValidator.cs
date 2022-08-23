@@ -3,7 +3,7 @@ using FluentValidation;
 
 namespace FinalProject.Business
 {
-    public class AppUserLoginDtoValidator : AbstractValidator<AppUserpasswordUpdateDto>
+    public class AppUserLoginDtoValidator : AbstractValidator<AppUserLoginDto>
     {
         public AppUserLoginDtoValidator()
         {
